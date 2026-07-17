@@ -31,9 +31,7 @@ export default function App() {
           }}
         >
           <span style={styles.eyebrow}>Welcome</span>
-          <h1 style={styles.title}>
-            Your app is ready to grow.
-          </h1>
+          <h1 style={styles.title}>Your app is ready to grow.</h1>
           <p style={styles.subtitle}>
             This is a clean starter. Tell me what you want to build and I'll turn it into a real product.
           </p>
