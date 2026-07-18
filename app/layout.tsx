@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Providers } from "@/components/Providers";
 
 export const metadata: Metadata = {
-  title: "Nisha Store POS",
-  description: "Professional POS & Inventory Management System",
+  title: "Starter App",
+  description: "A clean Next.js starter ready to grow.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className="font-sans antialiased">
-        <Providers>{children}</Providers>
-      </body>
+    <html lang="en">
+      <body>{children}</body>
     </html>
   );
 }
